@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 20px 100px;
+}
+h1{
+    font-size: 2em;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 10px;
+
+}
+img{
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    margin:  0 auto;
+}
+.btn{
+      height: 30px;
+      width: 30px;
+      display: inline-block;
+      border-radius: 50px;
+      border: 2px solid rgb(0, 255, 68);
+}
+#color_changer{
+    display: flex;
+    justify-content: end;
+}
+#white{
+    background-color: white;
+
+}
+#red{
+    background-color: red;
+}
+#violet{
+    background-color: rgb(199, 25, 234);
+}
+#black{
+    background-color: black;
+}
+p{
+    margin-top: 10px;
+
+    text-align: justify;
+}
